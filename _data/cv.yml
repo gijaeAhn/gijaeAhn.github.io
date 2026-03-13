@@ -1,189 +1,124 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Gijae Ahn
+  label: Robotics Engineer
+  email: gijaeahn77@gmail.com
+  location: Busan, Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  summary: Robotics engineer focused on mobile manipulation, compliant robotic arms, and autonomous robot systems. My recent work combines hardware design, control, motion planning, and high-level software integration for real-world deployment and competition-grade performance.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Pusan National University (PNU)
+        location: Busan, Korea
+        area: Electrical & Electronic Engineering
+        studyType: M.S.
+        start_date: 2024-03
+        end_date: 2026-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Two Studies in Robotic Manipulation: Development of a Lightweight Compliant 6-DoF Arm and Dynamic Non-Prehensile Object Transfer"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Pusan National University (PNU)
+        location: Busan, Korea
+        area: Electrical Engineering
+        studyType: B.S.
+        start_date: 2018-03
+        end_date: 2024-02
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Military Service: Oct 2018 - Jun 2020"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Tomorro Robotics Korea
+        position: Research Intern
+        location: Korea
+        start_date: 2025-09
+        end_date:
+        summary: CES 2026 demo system for autonomous factory-line collaboration.
         highlights:
-          - Relativity
-          - Description 2.
+          - Led engineering for an autonomous mobile manipulator in a dual-robot workflow.
+          - Implemented end-to-end pipeline for mobile base detection, grasping, and box transport to a conveyor.
+          - Ensured synchronization with a secondary VLA-based packing robot.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Competitions:
+      - bullet: "RoboCup@Home 2025 (Salvador) - First Place: Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API."
+      - bullet: "RoboCup@Home 2024 (Eindhoven) - Second Place: Developed arm controller, motion planning modules, and high-level control API interface."
+      - bullet: "RoboCup@Home 2023 (Bordeaux) - First Place: Hardware engineering contributions."
+      - bullet: "ZEUS Industrial Robot ZERO Mission Challenge 2024 - First Place (Presidential Award, Republic of Korea): Team lead for Robot Bartender; implemented arm controller and motion planning; integrated an LLM-based interaction pipeline."
+      - bullet: "Space Exploration & Development Robot Challenge 2023 (Korea) - First Place (Prime Minister's Award, Republic of Korea): Developed a 4-DoF rover arm hardware and controller for a lunar-environment mock mission."
+      - bullet: "Baemin Food Delivery Challenge (Real Robot) 2023 - Second Place (President's Award, Korea Institute for Robotics Industry Advancement, KIRIA): Developed a low-level motor driver interface for the real-robot delivery platform."
+      - bullet: "Baemin Autonomous Delivery Challenge (Simulation) 2023 - First Place (Ministerial Award, Ministry of Trade, Industry and Energy, MOTIE): Contributed to simulation task setup and overall performance."
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: Dynamic Scoop-and-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer
+        publisher: ICRA 2026 (Accepted)
+        releaseDate: 2026
+        summary: "G. Ahn*, J. Lee*, S. Oh, M. Shin, S.-J. Yi, and J. Seo"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "ANUBIS: A Compact, Low-Cost, Compliant Humanoid Mobile Manipulation Robot"
+        publisher: IEEE-RAS Humanoids 2025
+        releaseDate: 2025
+        summary: "T. Kang, J. Kim, S. Nasrat, D. Song, G. Ahn, M. Jo, S. Lee, S.-J. Yi"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Lucio at RoboCup@Home: An Open-Hardware Mobile Manipulator with Modular Software and On-Device LLM Planning"
+        publisher: IEEE-RAS Humanoids 2025 (Poster Presentation)
+        releaseDate: 2025
+        summary: "D. Song, T. Kang, S. Nasrat, J. Kim, M. Jo, G. Ahn, S. Lee, S. Yi"
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: Development of Dual-Arm Human Companion Robots That Can Dance
+        publisher: Sensors, 24(20), 6704
+        releaseDate: 2024
+        summary: "J. Kim, T. Kang, D. Song, G. Ahn, S.-J. Yi"
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Autonomous Quadruped Patrol System
+        summary: Government and National Police Agency related project.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Built perception coverage for safe navigation using four Intel RealSense D435 cameras.
+          - Owned camera mount design and a multi-camera depth pipeline (stitching/fusion) to generate obstacle maps.
+          - Supported collision-free locomotion on patrol routes with anomaly detection (suspects/illegal parking).
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Mobile Dual-Arm Robot System for Scalable Learning Data Collection
+        summary: LG Electronics industry-academia project.
+        highlights:
+          - Developed a mobile bimanual manipulation platform optimized for data collection and safe policy rollouts.
+          - Led development of a lightweight compliant manipulator to reduce environment-damage risk while controlling cost.
+          - Extended the platform into the M.S. thesis direction.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Technical Areas
+        keywords:
+          - Kinematics & Dynamics
+          - Sensor Fusion
+          - Control
+          - Motion Planning
+          - Optimization
+          - Object Recognition
+          - Deep Learning (basic)
+
+      - name: Programming Languages
+        keywords:
+          - C++
+          - Python
+          - Matlab
+
+      - name: Frameworks
+        keywords:
+          - ROS / ROS2
+          - MuJoCo
+          - Webots
+          - Isaac Gym
+          - Drake (basic)
+
+      - name: Software Tools
+        keywords:
+          - CAD (Onshape)
+          - Git
+          - Docker
+          - PyTorch
+          - OpenCV
+          - CMake
+          - Make
+
+      - name: Team Collaboration
+        keywords:
+          - Git-based branching and code reviews
+          - Collaborative CAD part design and assembly in Onshape
