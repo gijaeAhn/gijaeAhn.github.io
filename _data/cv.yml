@@ -1,10 +1,8 @@
 cv:
   name: Gijae Ahn
-  label: Robotics Engineer
+  headline: Robotics Engineer
   email: gijaeahn77@gmail.com
   location: Busan, Korea
-  image: ""
-  summary: Robotics engineer focused on mobile manipulation, compliant robotic arms, and autonomous robot systems. My recent work combines hardware design, control, motion planning, and high-level software integration for real-world deployment and competition-grade performance.
 
   sections:
     Education:
@@ -37,24 +35,51 @@ cv:
 
     Publications:
       - title: Dynamic Scoop-and-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer
-        publisher: ICRA 2026 (Accepted)
-        releaseDate: 2026
-        summary: "G. Ahn*, J. Lee*, S. Oh, M. Shin, S.-J. Yi, and J. Seo"
+        journal: ICRA 2026 (Accepted)
+        date: 2026
+        authors:
+          - G. Ahn*
+          - J. Lee*
+          - S. Oh
+          - M. Shin
+          - S.-J. Yi
+          - J. Seo
 
       - title: "ANUBIS: A Compact, Low-Cost, Compliant Humanoid Mobile Manipulation Robot"
-        publisher: IEEE-RAS Humanoids 2025
-        releaseDate: 2025
-        summary: "T. Kang, J. Kim, S. Nasrat, D. Song, G. Ahn, M. Jo, S. Lee, S.-J. Yi"
+        journal: IEEE-RAS Humanoids 2025
+        date: 2025
+        authors:
+          - T. Kang
+          - J. Kim
+          - S. Nasrat
+          - D. Song
+          - G. Ahn
+          - M. Jo
+          - S. Lee
+          - S.-J. Yi
 
       - title: "Lucio at RoboCup@Home: An Open-Hardware Mobile Manipulator with Modular Software and On-Device LLM Planning"
-        publisher: IEEE-RAS Humanoids 2025 (Poster Presentation)
-        releaseDate: 2025
-        summary: "D. Song, T. Kang, S. Nasrat, J. Kim, M. Jo, G. Ahn, S. Lee, S. Yi"
+        journal: IEEE-RAS Humanoids 2025 (Poster Presentation)
+        date: 2025
+        authors:
+          - D. Song
+          - T. Kang
+          - S. Nasrat
+          - J. Kim
+          - M. Jo
+          - G. Ahn
+          - S. Lee
+          - S. Yi
 
       - title: Development of Dual-Arm Human Companion Robots That Can Dance
-        publisher: Sensors, 24(20), 6704
-        releaseDate: 2024
-        summary: "J. Kim, T. Kang, D. Song, G. Ahn, S.-J. Yi"
+        journal: Sensors, 24(20), 6704
+        date: 2024
+        authors:
+          - J. Kim
+          - T. Kang
+          - D. Song
+          - G. Ahn
+          - S.-J. Yi
 
     Experience:
       - company: Tomorro Robotics Korea
@@ -84,41 +109,17 @@ cv:
           - Extended the platform into the M.S. thesis direction.
 
     Skills:
-      - name: Technical Areas
-        keywords:
-          - Kinematics & Dynamics
-          - Sensor Fusion
-          - Control
-          - Motion Planning
-          - Optimization
-          - Object Recognition
-          - Deep Learning (basic)
+      - label: Technical Areas
+        details: Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning (basic)
 
-      - name: Programming Languages
-        keywords:
-          - C++
-          - Python
-          - Matlab
+      - label: Programming Languages
+        details: C++, Python, Matlab
 
-      - name: Frameworks
-        keywords:
-          - ROS / ROS2
-          - MuJoCo
-          - Webots
-          - Isaac Gym
-          - Drake (basic)
+      - label: Frameworks
+        details: ROS / ROS2, MuJoCo, Webots, Isaac Gym, Drake (basic)
 
-      - name: Software Tools
-        keywords:
-          - CAD (Onshape)
-          - Git
-          - Docker
-          - PyTorch
-          - OpenCV
-          - CMake
-          - Make
+      - label: Software Tools
+        details: CAD (Onshape), Git, Docker, PyTorch, OpenCV, CMake, Make
 
-      - name: Team Collaboration
-        keywords:
-          - Git-based branching and code reviews
-          - Collaborative CAD part design and assembly in Onshape
+      - label: Team Collaboration
+        details: Git-based branching and code reviews, Collaborative CAD part design and assembly in Onshape
