@@ -40,6 +40,57 @@ body.sticky-bottom-footer {
   }
 }
 
+.about-entry {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  margin: 1.25rem 0 1.75rem;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.about-entry-media {
+  width: 180px;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+  }
+}
+
+.about-entry-body {
+  min-width: 0;
+
+  p:last-child,
+  ul:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-entry {
+    grid-template-columns: 1fr;
+  }
+
+  .about-entry-media,
+  .about-entry-media img {
+    width: 100%;
+  }
+
+  .about-entry-media img {
+    height: auto;
+    max-height: 220px;
+  }
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples

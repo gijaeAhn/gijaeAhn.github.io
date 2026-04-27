@@ -58,5 +58,6 @@ jobs:
             echo "No CV changes to commit."
           else
             git commit -m "chore: render the latest CV"
+            git pull --rebase origin "${{ github.ref_name }}"
             git push
           fi
