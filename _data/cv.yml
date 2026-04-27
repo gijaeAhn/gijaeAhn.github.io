@@ -26,18 +26,6 @@ cv:
         highlights:
           - "Military Service: Oct 2018 - Jun 2020"
 
-    Experience:
-      - company: Tomorro Robotics Korea
-        position: Research Intern
-        location: Korea
-        start_date: 2025-09
-        end_date:
-        summary: CES 2026 demo system for autonomous factory-line collaboration.
-        highlights:
-          - Led engineering for an autonomous mobile manipulator in a dual-robot workflow.
-          - Implemented end-to-end pipeline for mobile base detection, grasping, and box transport to a conveyor.
-          - Ensured synchronization with a secondary VLA-based packing robot.
-
     Competitions:
       - bullet: "RoboCup@Home 2025 (Salvador) - First Place: Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API."
       - bullet: "RoboCup@Home 2024 (Eindhoven) - Second Place: Developed arm controller, motion planning modules, and high-level control API interface."
@@ -67,6 +55,18 @@ cv:
         publisher: Sensors, 24(20), 6704
         releaseDate: 2024
         summary: "J. Kim, T. Kang, D. Song, G. Ahn, S.-J. Yi"
+
+    Experience:
+      - company: Tomorro Robotics Korea
+        position: Research Intern
+        location: Korea
+        start_date: 2025-09
+        end_date:
+        summary: CES 2026 demo system for autonomous factory-line collaboration.
+        highlights:
+          - Led engineering for an autonomous mobile manipulator in a dual-robot workflow.
+          - Implemented end-to-end pipeline for mobile base detection, grasping, and box transport to a conveyor.
+          - Ensured synchronization with a secondary VLA-based packing robot.
 
     Projects:
       - name: Autonomous Quadruped Patrol System
