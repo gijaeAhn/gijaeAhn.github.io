@@ -41,7 +41,7 @@ body.sticky-bottom-footer {
 }
 
 .about-entry {
-  --about-entry-media-scale: 2.0;
+  --about-entry-media-scale: 2;
   --about-entry-media-width: calc(180px * var(--about-entry-media-scale));
 
   display: grid;
@@ -79,6 +79,18 @@ body.sticky-bottom-footer {
 }
 
 @media (max-width: 576px) {
+  .about-entry {
+    --about-entry-mobile-media-width: clamp(140px, 42vw, var(--about-entry-media-width));
+
+    grid-template-columns: var(--about-entry-mobile-media-width) minmax(0, 1fr);
+  }
+
+  .about-entry-media {
+    width: var(--about-entry-mobile-media-width);
+  }
+}
+
+@media (max-width: 400px) {
   .about-entry {
     grid-template-columns: 1fr;
   }
