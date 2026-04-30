@@ -110,16 +110,16 @@ cv:
 
     Skills:
       - label: Technical Areas
-        details: Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning (basic)
+        details: Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning
 
-      - label: Programming Languages
+      - label: Languages
         details: C++, Python, Matlab
 
       - label: Frameworks
-        details: ROS / ROS2, MuJoCo, Webots, Isaac Gym, Drake (basic)
+        details: ROS / ROS2, MuJoCo, Webots, Isaac Gym, Drake
 
       - label: Software Tools
-        details: CAD (Onshape), Git, Docker, PyTorch, OpenCV, CMake, Make
+        details: CAD(Onshape), Git, Docker, PyTorch, OpenCV, CMake, Make
 
-      - label: Team Collaboration
-        details: Git-based branching and code reviews, Collaborative CAD part design and assembly in Onshape
+      - label: Team-based Development
+        details: Git-based collaboration (branching, code reviews) and collaborative CAD part design and assembly in Onshape for integrated robot hardware.
