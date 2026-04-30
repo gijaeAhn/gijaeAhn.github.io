@@ -44,7 +44,7 @@ To pursue these interests, I have participated in multiple robotics competitions
   <div class="about-entry-body">
     <h3>RoboCup@Home 2025 (Salvador) <br>1st Place</h3>
     <p>
-      At RoboCup@Home 2025, our team built the entire robot system in-house and demonstrated strong all-around performance. The robot featured two compliant manipulators that smoothly carried out manipulation tasks, along with a local language-action model for natural and responsive human-robot interaction. I contributed to the manipulator system, focusing on arm control, motion planning, and integration with the robot’s task execution pipeline.
+      At RoboCup@Home 2025, our team built the entire robot system in-house and demonstrated strong all-around performance. The robot featured two compliant manipulators that smoothly carried out manipulation tasks, with my contributions focused on arm design and control, motion planning, and integration with the robot’s task execution pipeline.
     </p>
   </div>
 </div>

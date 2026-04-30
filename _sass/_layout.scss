@@ -41,7 +41,7 @@ body.sticky-bottom-footer {
 }
 
 .about-entry {
-  --about-entry-media-scale: 1.5;
+  --about-entry-media-scale: 2.0;
   --about-entry-media-width: calc(180px * var(--about-entry-media-scale));
 
   display: grid;
@@ -84,7 +84,7 @@ body.sticky-bottom-footer {
   }
 
   .about-entry-media {
-    width: 100%;
+    width: min(var(--about-entry-media-width), 100%);
   }
 }
 
