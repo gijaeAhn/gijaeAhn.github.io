@@ -157,7 +157,7 @@ layout: default
                 {% include cv/experience.liquid %}
               {% elsif section_title == 'Competitions' %}
                 {% assign entries = section_entries %}
-                {% include cv/bullets.liquid %}
+                {% include cv/competitions.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}

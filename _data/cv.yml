@@ -25,13 +25,54 @@ cv:
           - "Military Service: Oct 2018 - Jun 2020"
 
     Competitions:
-      - bullet: "RoboCup@Home 2025 (Salvador) - First Place: Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API."
-      - bullet: "RoboCup@Home 2024 (Eindhoven) - Second Place: Developed arm controller, motion planning modules, and high-level control API interface."
-      - bullet: "RoboCup@Home 2023 (Bordeaux) - First Place: Hardware engineering contributions."
-      - bullet: "ZEUS Industrial Robot ZERO Mission Challenge 2024 - First Place (Presidential Award, Republic of Korea): Team lead for Robot Bartender; implemented arm controller and motion planning; integrated an LLM-based interaction pipeline."
-      - bullet: "Space Exploration & Development Robot Challenge 2023 (Korea) - First Place (Prime Minister's Award, Republic of Korea): Developed a 4-DoF rover arm hardware and controller for a lunar-environment mock mission."
-      - bullet: "Baemin Food Delivery Challenge (Real Robot) 2023 - Second Place (President's Award, Korea Institute for Robotics Industry Advancement, KIRIA): Developed a low-level motor driver interface for the real-robot delivery platform."
-      - bullet: "Baemin Autonomous Delivery Challenge (Simulation) 2023 - First Place (Ministerial Award, Ministry of Trade, Industry and Energy, MOTIE): Contributed to simulation task setup and overall performance."
+      - name: RoboCup@Home
+        result: First Place
+        location: Salvador, Brazil
+        date: 2025
+        highlights:
+          - Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API.
+
+      - name: RoboCup@Home
+        result: Second Place
+        location: Eindhoven, Netherlands
+        date: 2024
+        highlights:
+          - Developed arm controller, motion planning modules, and high-level control API interface.
+
+      - name: RoboCup@Home
+        result: First Place
+        location: Bordeaux, France
+        date: 2023
+        highlights:
+          - Hardware engineering contributions.
+
+      - name: ZEUS Industrial Robot ZERO Mission Challenge
+        result: First Place (Presidential Award, Republic of Korea)
+        location: Korea
+        date: 2024
+        highlights:
+          - Team lead for Robot Bartender; implemented arm controller and motion planning; integrated an LLM-based interaction pipeline.
+
+      - name: Space Exploration & Development Robot Challenge
+        result: First Place (Prime Minister's Award, Republic of Korea)
+        location: Korea
+        date: 2023
+        highlights:
+          - Developed a 4-DoF rover arm hardware and controller for a lunar-environment mock mission.
+
+      - name: Baemin Food Delivery Challenge (Real Robot)
+        result: Second Place (President's Award, Korea Institute for Robotics Industry Advancement, KIRIA)
+        location: Korea
+        date: 2023
+        highlights:
+          - Developed a low-level motor driver interface for the real-robot delivery platform.
+
+      - name: Baemin Autonomous Delivery Challenge (Simulation)
+        result: First Place (Ministerial Award, Ministry of Trade, Industry and Energy, MOTIE)
+        location: Korea
+        date: 2023
+        highlights:
+          - Contributed to simulation task setup and overall performance.
 
     Experience:
       - company: OMRON SINIC X
