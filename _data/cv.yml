@@ -27,21 +27,21 @@ cv:
     Competitions:
       - name: RoboCup@Home
         result: First Place
-        location: Salvador, Brazil
+        location: Brazil
         date: 2025
         highlights:
           - Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API.
 
       - name: RoboCup@Home
         result: Second Place
-        location: Eindhoven, Netherlands
+        location: Netherlands
         date: 2024
         highlights:
           - Developed arm controller, motion planning modules, and high-level control API interface.
 
       - name: RoboCup@Home
         result: First Place
-        location: Bordeaux, France
+        location: France
         date: 2023
         highlights:
           - Hardware engineering contributions.
