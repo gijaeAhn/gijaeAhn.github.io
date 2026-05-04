@@ -33,9 +33,27 @@ cv:
       - bullet: "Baemin Food Delivery Challenge (Real Robot) 2023 - Second Place (President's Award, Korea Institute for Robotics Industry Advancement, KIRIA): Developed a low-level motor driver interface for the real-robot delivery platform."
       - bullet: "Baemin Autonomous Delivery Challenge (Simulation) 2023 - First Place (Ministerial Award, Ministry of Trade, Industry and Energy, MOTIE): Contributed to simulation task setup and overall performance."
 
+    Experience:
+      - company: OMRON SINIC X
+        position: Incoming Research Intern
+        location: Japan
+        start_date: 2026-07
+        end_date: TBD
+        highlights:
+          - "Research Topic: Learning-based dynamic collaborative manipulation."
+
+      - company: Tomorro Robotics
+        position: Research Intern
+        location: Korea
+        start_date: 2025-09
+        end_date:
+        summary: CES 2026 Demo System (Autonomous Factory-Line Collaboration)
+        highlights:
+          - Lead engineer for the autonomous mobile manipulator in a dual-robot workflow. Implemented the complete pipeline for the mobile base to detect, grasp, and transport boxes to a conveyor, ensuring precise synchronization with a secondary VLA-based packing robot.
+
     Publications:
       - title: Dynamic Scoop-and-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer
-        journal: ICRA 2026 (Accepted)
+        journal: IEEE International Conference on Robotics and Automation (ICRA)
         date: 2026
         authors:
           - G. Ahn*
@@ -81,18 +99,6 @@ cv:
           - G. Ahn
           - S.-J. Yi
 
-    Experience:
-      - company: Tomorro Robotics Korea
-        position: Research Intern
-        location: Korea
-        start_date: 2025-09
-        end_date:
-        summary: CES 2026 demo system for autonomous factory-line collaboration.
-        highlights:
-          - Led engineering for an autonomous mobile manipulator in a dual-robot workflow.
-          - Implemented end-to-end pipeline for mobile base detection, grasping, and box transport to a conveyor.
-          - Ensured synchronization with a secondary VLA-based packing robot.
-
     Projects:
       - name: Autonomous Quadruped Patrol System
         summary: Government and National Police Agency related project.
@@ -108,7 +114,18 @@ cv:
           - Led development of a lightweight compliant manipulator to reduce environment-damage risk while controlling cost.
           - Extended the platform into the M.S. thesis direction.
 
-    Skills:
+    Outreach & Service:
+      - company: Geumjeong Lifelong Learning Center
+        position: Volunteer
+        location: Busan, Korea
+        start_date: 2022-04
+        end_date:
+        summary: Senior citizen education and ongoing digital operations support.
+        highlights:
+          - Supported senior citizen education programs as a long-term volunteer.
+          - Currently contributing to the ongoing development of a digital operations platform and website to support program management and day-to-day operations.
+
+    Skillset:
       - label: Technical Areas
         details: Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning
 
