@@ -158,8 +158,8 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
   <div class="about-entry-body">
     <h3>Tomorro Robotics <br>Research Intern (Sep 2025 - Present)</h3>
     <p>
-      Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow
-      demonstration at CES 2026.
+      Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow demonstration at CES 2026.
+      <br>I am also actively contributing to the ongoing development of a data collection device for robotics foundation models.
     </p>
   </div>
 </div>
