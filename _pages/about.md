@@ -155,6 +155,21 @@ I'm also excited to join <b>OMRON SINIC X</b> as an incoming research intern in 
   </div>
 </div>
 
+## Internship
+
+<div class="about-entry">
+  <div class="about-entry-media">
+    {% include figure.liquid loading="eager" path="/assets/img/tommoro.jpg" class="img-fluid rounded z-depth-1" alt="Tomorro Robotics Korea internship" %}
+  </div>
+  <div class="about-entry-body">
+    <h3>Tomorro Robotics Korea <br>Research Intern (Sep 2025 - Present)</h3>
+    <p>
+      Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow
+      demonstration at CES 2026.
+    </p>
+  </div>
+</div>
+
 ## Projects
 
 <div class="about-entry">
@@ -178,14 +193,14 @@ I'm also excited to join <b>OMRON SINIC X</b> as an incoming research intern in 
   <div class="about-entry-body">
     <h3>Mobile Dual-Arm Robot System for Scalable Learning Data Collection</h3>
     <p>
-      In collaboration with LG Electronics, the platform was designed for scalable bimanual manipulation
-      data collection and safe policy rollouts. I participated in the robot hardware and manipulation system development,
-      with a focus on lightweight compliant manipulator design.
+      In collaboration with LG Electronics, the platform was designed for scalable bimanual manipulation data collection and
+      safe policy rollouts. I participated in the robot hardware and manipulation system development, with a focus on
+      lightweight compliant manipulator design.
     </p>
   </div>
 </div>
 
-## Volunteer Work
+## Outreach & Service
 
 <div class="about-entry">
   <div class="about-entry-media">
@@ -197,21 +212,6 @@ I'm also excited to join <b>OMRON SINIC X</b> as an incoming research intern in 
       I have supported senior citizen education programs since April 2022. More recently, I am helping develop a digital
       operations platform and website to support the center's programs and day-to-day
       operations more smoothly.
-    </p>
-  </div>
-</div>
-
-## Internship
-
-<div class="about-entry">
-  <div class="about-entry-media">
-    {% include figure.liquid loading="eager" path="/assets/img/tommoro.jpg" class="img-fluid rounded z-depth-1" alt="Tomorro Robotics Korea internship" %}
-  </div>
-  <div class="about-entry-body">
-    <h3>Tomorro Robotics Korea <br>Research Intern (Sep 2025 - Present)</h3>
-    <p>
-      Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow
-      demonstration at CES 2026.
     </p>
   </div>
 </div>
