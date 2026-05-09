@@ -156,7 +156,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
     {% include figure.liquid loading="eager" path="/assets/img/tommoro.jpg" class="img-fluid rounded z-depth-1" alt="Tomorro Robotics Korea internship" %}
   </div>
   <div class="about-entry-body">
-    <h3>Tomorro Robotics Korea <br>Research Intern (Sep 2025 - Present)</h3>
+    <h3>Tomorro Robotics <br>Research Intern (Sep 2025 - Present)</h3>
     <p>
       Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow
       demonstration at CES 2026.
