@@ -149,7 +149,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
   </div>
 </div>
 
-## Internship
+## **Internship**
 
 <div class="about-entry">
   <div class="about-entry-media">
@@ -164,7 +164,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
   </div>
 </div>
 
-## Projects
+## **Projects**
 
 <div class="about-entry">
   <div class="about-entry-media">
@@ -194,7 +194,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
   </div>
 </div>
 
-## Outreach & Service
+## **Outreach & Service**
 
 <div class="about-entry">
   <div class="about-entry-media">
