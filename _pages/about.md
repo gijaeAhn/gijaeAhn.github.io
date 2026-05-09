@@ -155,6 +155,36 @@ I'm also excited to join <b>OMRON SINIC X</b> as an incoming research intern in 
   </div>
 </div>
 
+## Projects
+
+<div class="about-entry">
+  <div class="about-entry-media">
+    {% include figure.liquid loading="eager" path="/assets/img/autonomous_navigation.gif" class="img-fluid rounded z-depth-1" alt="Autonomous quadruped patrol navigation" avoid_scaling=true %}
+  </div>
+  <div class="about-entry-body">
+    <h3>Autonomous Quadruped Patrol System</h3>
+    <p>
+      The system uses an autonomous quadruped platform for safe patrol navigation and anomaly detection in a government
+      and National Police Agency related setting. I participated in the perception and hardware integration work, including
+      camera mount design and a multi-camera depth pipeline using Intel RealSense D435 cameras.
+    </p>
+  </div>
+</div>
+
+<div class="about-entry">
+  <div class="about-entry-media">
+    {% include figure.liquid loading="eager" path="/assets/img/teleop3_optimized.gif" class="img-fluid rounded z-depth-1" alt="Mobile dual-arm robot teleoperation for data collection" avoid_scaling=true %}
+  </div>
+  <div class="about-entry-body">
+    <h3>Mobile Dual-Arm Robot System for Scalable Learning Data Collection</h3>
+    <p>
+      In collaboration with LG Electronics, the platform was designed for scalable bimanual manipulation
+      data collection and safe policy rollouts. I participated in the robot hardware and manipulation system development,
+      with a focus on lightweight compliant manipulator design.
+    </p>
+  </div>
+</div>
+
 ## Volunteer Work
 
 <div class="about-entry">
