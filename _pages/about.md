@@ -25,7 +25,7 @@ latest_posts:
 
 Hello! I'm **Gijae Ahn**.
 <br>As a robotics engineer, I've focused on the interactions and dynamics that arise when robots make contact with their environment.
-My work so far has spanned hardware design, control, and motion planning through projects I carried out with **ARAI Lab (Autonomous Robots and Artificial Intelligence Lab)** at Pusan National University, most notably **RoboCup@Home**. Through these experiences, I have pursued my personal and research interest in building effective robotic systems with enhanced autonomy, aiming to reduce workload and extend capabilities in everyday and demanding environments.
+My work so far has spanned hardware design, control, and motion planning through projects I carried out with **ARAI Lab (Autonomous Robots and Artificial Intelligence Lab)** at Pusan National University, most notably **RoboCup@Home**. Through these experiences, I have pursued my interests in building effective robotic systems with enhanced autonomy, aiming to reduce workload and extend capabilities in everyday and demanding environments.
 
 With the joy of collaborating with my team, I completed my master’s degree under the supervision of **[Prof. Seung-Joon Yi](https://www.linkedin.com/in/seung-joon-yi-332b738a/)**. In my thesis, I explored <b>lightweight compliant manipulator and dynamic non-prehensile object transfer</b>, the latter made possible through collaboration with **[Prof. Jungwon Seo](https://sites.google.com/view/js-rml)** and his students.
 
