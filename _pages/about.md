@@ -164,7 +164,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
   </div>
 </div>
 
-## **Projects**
+## **Other Projects**
 
 <div class="about-entry">
   <div class="about-entry-media">
