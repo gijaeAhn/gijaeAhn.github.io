@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: me.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,18 +24,12 @@ latest_posts:
 ---
 
 Hello! I'm **Gijae Ahn**.
-I've focused on the interactions and dynamics that arise when robots make contact with their environment.
-My work spans robot hardware design, control, motion planning, and integrated software pipelines for real-world tasks and competitions.
+<br>As a robotics engineer, I've focused on the interactions and dynamics that arise when robots make contact with their environment.
+My work so far has spanned hardware design, control, and motion planning through projects I carried out with **ARAI Lab (Autonomous Robots and Artificial Intelligence Lab)** at Pusan National University, most notably **RoboCup@Home**. Through these experiences, I have pursued my personal and research interest in building effective robotic systems with enhanced autonomy, aiming to reduce workload and extend capabilities in everyday and demanding environments.
 
-I received my B.S. and M.S. in Electrical and Electronic Engineering from Pusan National University, where I completed my master’s research under the supervision of <b>Prof. Seung-Joon Yi</b>.
-In my thesis, I explored <b>lightweight compliant manipulator and dynamic non-prehensile object transfer</b>.
+With the joy of collaborating with my team, I completed my master’s degree under the supervision of **[Prof. Seung-Joon Yi](https://www.linkedin.com/in/seung-joon-yi-332b738a/)**. In my thesis, I explored <b>lightweight compliant manipulator and dynamic non-prehensile object transfer</b>, the latter made possible through collaboration with **[Prof. Jungwon Seo](https://sites.google.com/view/js-rml)** and his students.
 
-My research interests lie in **developing robust and effective robotic systems that assist people enhance their capabilities in everyday life**.
-To pursue these interests, I have participated in multiple robotics competitions as part of my lab team, most notably RoboCup@Home, as well as industrial and space robotics challenges in Korea.
-
-I'm also excited to join <b>OMRON SINIC X</b> as an incoming research intern in July 2026, where I look forward to collaborating with researchers from diverse backgrounds and delving into "Learning-based dynamic collaborative manipulation".
-
-<!-- More recently, I have developed a strong interest in collaborative manipulation that leverages human intent estimation. -->
+More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as a research intern in July 2026, and I am excited to take part in its research, where I look forward to collaborating with researchers from diverse backgrounds and delving into **learning-based dynamic collaborative manipulation**.
 
 ## **Competitions**
 
