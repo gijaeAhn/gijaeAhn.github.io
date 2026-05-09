@@ -101,7 +101,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
     {% include figure.liquid loading="eager" path="/assets/img/2023_baemin_real.gif" class="img-fluid rounded z-depth-1" alt="Baemin Food Delivery Challenge 2023" %}
   </div>
   <div class="about-entry-body">
-    <h3>Baemin Food Delivery Challenge 2023 <br><strong>2nd</strong> Place (President's Award, KIRIA)</h3>
+    <h3>Baemin Food Delivery Challenge 2023 <br><strong>2nd Place</strong> (President's Award, KIRIA)</h3>
     <p>Our team built an autonomous delivery robot that uses IMU feedback to actively stabilize its top platform while navigating uneven terrain and real-world obstacles. I contributed by developing the low-level motor driver interface for the real-robot platform.</p>
   </div>
 </div>
