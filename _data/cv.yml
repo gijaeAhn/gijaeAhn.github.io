@@ -12,8 +12,6 @@ cv:
         studyType: M.S.
         start_date: 2024-03
         end_date: 2026-02
-        highlights:
-          - "Thesis: Two Studies in Robotic Manipulation: Development of a Lightweight Compliant 6-DoF Arm and Dynamic Non-Prehensile Object Transfer"
 
       - institution: Pusan National University (PNU)
         location: Busan, Korea
@@ -21,65 +19,47 @@ cv:
         studyType: B.S.
         start_date: 2018-03
         end_date: 2024-02
-        highlights:
-          - "Military Service: Oct 2018 - Jun 2020"
 
     Competitions:
       - name: RoboCup@Home
         result: First Place
         location: Incheon, Korea
         date: 2026
-        highlights:
-          - Supported system integration and on-site competition operations.
 
       - name: RoboCup@Home
         result: First Place
         location: Brazil
         date: 2025
-        highlights:
-          - Led development of a lightweight compliant 6-DoF manipulator (HW/SW); contributed controller, motion planning, and high-level control API.
 
       - name: RoboCup@Home
         result: Second Place
         location: Netherlands
         date: 2024
-        highlights:
-          - Developed arm controller, motion planning modules, and high-level control API interface.
 
       - name: RoboCup@Home
         result: First Place
         location: France
         date: 2023
-        highlights:
-          - Hardware engineering contributions.
 
       - name: ZEUS Industrial Robot ZERO Mission Challenge
         result: First Place (Presidential Award, Republic of Korea)
         location: Korea
         date: 2024
-        highlights:
-          - Team lead for Robot Bartender; implemented arm controller and motion planning; integrated an LLM-based interaction pipeline.
 
       - name: Space Exploration & Development Robot Challenge
         result: First Place (Prime Minister's Award, Republic of Korea)
         location: Korea
         date: 2023
-        highlights:
-          - Developed a 4-DoF rover arm hardware and controller for a lunar-environment mock mission.
 
       - name: Baemin Food Delivery Challenge (Real Robot)
         result: Second Place (President's Award, Korea Institute for Robotics Industry Advancement, KIRIA)
         location: Korea
         date: 2023
-        highlights:
-          - Developed a low-level motor driver interface for the real-robot delivery platform.
 
       - name: Baemin Autonomous Delivery Challenge (Simulation)
         result: First Place (Ministerial Award, Ministry of Trade, Industry and Energy, MOTIE)
         location: Korea
         date: 2023
-        highlights:
-          - Contributed to simulation task setup and overall performance.
 
     Experience:
       - company: OMRON SINIC X
@@ -87,19 +67,12 @@ cv:
         location: Japan
         start_date: 2026-07
         end_date:
-        highlights:
-          - "Research Topic: Dynamic human-robot collaborative object transport via model-based control for non-prehensile manipulation and learning-based human intention estimation."
 
       - company: Tomorro Robotics
         position: Research Intern
         location: Korea
         start_date: 2025-09
         end_date: 2026-06
-        summary: CES 2026 Demo System (Autonomous Factory-Line Collaboration)
-        highlights:
-          - Lead engineer for the autonomous mobile manipulator in a dual-robot workflow. Implemented the complete pipeline for the mobile base to detect, grasp, and transport boxes to a conveyor, ensuring precise synchronization with a secondary VLA-based packing robot.
-          - "UMI-Inspired Interface and General-Purpose Inverse Kinematics Solver: Contributed to the development of a UMI-inspired manipulation interface and a general-purpose inverse kinematics solver to support learning and control across heterogeneous humanoid robot platforms."
-          - "Humanoid Navigation System: Contributed to a 3D-LiDAR-based humanoid navigation system for domestic environments."
 
     Publications:
       - title: Dynamic Scoop-and-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer
@@ -162,24 +135,10 @@ cv:
 
     Projects:
       - name: Autonomous Quadruped Patrol System
-        summary: Government and National Police Agency related project.
-        highlights:
-          - Built perception coverage for safe navigation using four Intel RealSense D435 cameras.
-          - Owned camera mount design and a multi-camera depth pipeline (stitching/fusion) to generate obstacle maps.
-          - Supported collision-free locomotion on patrol routes with anomaly detection (suspects/illegal parking).
 
       - name: Mobile Dual-Arm Robot System for Scalable Learning Data Collection
-        summary: LG Electronics industry-academia project.
-        highlights:
-          - Developed a mobile bimanual manipulation platform optimized for data collection and safe policy rollouts.
-          - Led development of a lightweight compliant manipulator to reduce environment-damage risk while controlling cost.
-          - Extended the platform into the M.S. thesis direction.
 
       - name: Intelligent Mobile Manipulation Robot for Shipyard Environments
-        summary: Samsung Heavy Industries industry-academia project.
-        highlights:
-          - Contributed to the development of a mobile manipulation system for welding on curved ship components, focusing on simulation environment setup, base navigation, and base-arm coordination for continuous weld-path tracking.
-          - Supported validation using depth-camera-based trajectory error measurement and progressively more realistic terrain and contact conditions.
 
     Outreach & Service:
       - company: Geumjeong Lifelong Learning Center
@@ -187,9 +146,6 @@ cv:
         location: Busan, Korea
         start_date: 2022-04
         end_date: 2026-07
-        summary: Long-term support across senior education, facility maintenance, and digital operations.
-        highlights:
-          - Worked closely with senior learners and supported the center wherever needed, from teaching and facility maintenance to building an online platform for program management and daily operations.
 
     Skillset:
       - label: Technical Areas
