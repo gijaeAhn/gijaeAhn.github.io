@@ -23,15 +23,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm **Gijae Ahn**.
-<br>As a robotics engineer, I've focused on the interactions and dynamics that arise when robots make contact.
-My work so far has spanned hardware design, control, and motion planning through projects I carried out with **ARAI Lab (Autonomous Robots and Artificial Intelligence Lab)** at Pusan National University, most notably **RoboCup@Home**. Through these experiences, I have pursued my interests in building effective robotic systems with enhanced autonomy, aiming to better assist individuals.
+Hi! I’m **Gijae Ahn**, a robotics engineer aiming to solve problems people face in their daily lives by building robots that can help with physical tasks. I have been pursuing this vision by exploring robotic manipulation from multiple perspectives.
 
-Finding joy in collaborating with my team, I completed my master’s degree under the supervision of **[Prof. Seung-Joon Yi](https://www.linkedin.com/in/seung-joon-yi-332b738a/)**. In my thesis, I explored <b>lightweight compliant manipulator and dynamic non-prehensile object transfer</b>, the latter made possible through collaboration with **[Prof. Jungwon Seo](https://sites.google.com/view/js-rml)** and his students.
+Through projects at my former lab, most notably RoboCup@Home under the supervision of **Prof. Seung-Joon Yi**, I designed, planned, and controlled robotic arms tailored for everyday assistance in home environments. Separately, in collaboration with **Prof. Jungwon Seo**, I investigated dynamic manipulation techniques that enable robots to transport low-profile objects in a non-prehensile manner, broadening my understanding of contact mechanics.
 
-More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as a research intern in July 2026, and I am excited to take part in its research, where I look forward to collaborating with researchers from diverse backgrounds and delving into **learning-based dynamic collaborative manipulation**.
+Since July 2026, I have been a research intern at **OMRON SINIC X**, where my research focuses on dynamic collaborative object transfer using a hierarchical framework that combines diffusion models with model-based control.
 
 ## **Competitions**
+
+<div class="about-entry">
+  <div class="about-entry-media about-entry-placeholder" aria-hidden="true"></div>
+  <div class="about-entry-body">
+    <h3>RoboCup@Home 2026 (Incheon) <br><strong>1st Place</strong></h3>
+  </div>
+</div>
 
 <div class="about-entry">
   <div class="about-entry-media">
@@ -117,7 +122,7 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
     <p><strong>IEEE International Conference on Robotics and Automation (ICRA)</strong><br><strong>G. Ahn</strong>*, J. Lee*, S. Oh, M. Shin, S.-J. Yi, and J. Seo</p>
     <p>
       <a class="btn btn-sm btn-outline-primary" href="/assets/pdf/icra_2026_high_arc_object_transfer.pdf">Paper</a>
-      <a class="btn btn-sm btn-outline-primary" href="https://github.com/JS-RML/Dynamic-Scoop-and-Flick-Manipulation" target="_blank" rel="noopener noreferrer">Code</a>
+      <!-- <a class="btn btn-sm btn-outline-primary" href="https://github.com/JS-RML/Dynamic-Scoop-and-Flick-Manipulation" target="_blank" rel="noopener noreferrer">Code</a> -->
     </p>
   </div>
 </div>
@@ -152,14 +157,26 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
 ## **Internship**
 
 <div class="about-entry">
+  <div class="about-entry-media about-entry-placeholder" aria-hidden="true"></div>
+  <div class="about-entry-body">
+    <h3>OMRON SINIC X <br>Research Intern (Jul 2026 - Present)</h3>
+    <p>
+      Developing a hierarchical framework for dynamic collaborative object transfer that combines diffusion models with
+      model-based control.
+    </p>
+  </div>
+</div>
+
+<div class="about-entry">
   <div class="about-entry-media">
     {% include figure.liquid loading="eager" path="/assets/img/tommoro.jpg" class="img-fluid rounded z-depth-1" alt="Tomorro Robotics Korea internship" %}
   </div>
   <div class="about-entry-body">
-    <h3>Tomorro Robotics <br>Research Intern (Sep 2025 - Present)</h3>
+    <h3>Tomorro Robotics <br>Research Intern (Sep 2025 - Jun 2026)</h3>
     <p>
-      Participated as an engineer in the development of an autonomous mobile manipulator for a dual-robot factory workflow demonstration at CES 2026.
-      <br>I am also actively contributing to the ongoing development of a data collection device for robotics foundation models.
+      Contributed to an autonomous mobile manipulator for a dual-robot factory workflow demonstration at CES 2026. I also
+      worked on a UMI-inspired manipulation interface, a general-purpose inverse kinematics solver, and a 3D-LiDAR-based
+      humanoid navigation system for domestic environments.
     </p>
   </div>
 </div>
@@ -201,11 +218,10 @@ More recently, I have been given the opportunity to join <b>OMRON SINIC X</b> as
     {% include figure.liquid loading="eager" path="/assets/img/Geumjeongschool.jpg" class="img-fluid rounded z-depth-1 about-entry-small-square" alt="Geumjeong Lifelong Learning Center volunteer work" %}
   </div>
   <div class="about-entry-body">
-    <h3>Geumjeong Lifelong Learning Center <br> Volunteer (Apr 2022 - Present)</h3>
+    <h3>Geumjeong Lifelong Learning Center <br> Volunteer (Apr 2022 - Jul 2026)</h3>
     <p>
-      I have supported senior citizen education programs since April 2022. More recently, I am helping develop a digital
-      operations platform and website to support the center's programs and day-to-day
-      operations more smoothly.
+      For over four years, I worked closely with senior learners and supported the center wherever needed, from teaching and
+      facility maintenance to building an online platform for program management and daily operations.
     </p>
   </div>
 </div>

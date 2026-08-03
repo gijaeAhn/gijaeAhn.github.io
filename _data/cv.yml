@@ -27,6 +27,13 @@ cv:
     Competitions:
       - name: RoboCup@Home
         result: First Place
+        location: Incheon, Korea
+        date: 2026
+        highlights:
+          - Supported system integration and on-site competition operations.
+
+      - name: RoboCup@Home
+        result: First Place
         location: Brazil
         date: 2025
         highlights:
@@ -76,21 +83,23 @@ cv:
 
     Experience:
       - company: OMRON SINIC X
-        position: Incoming Research Intern
+        position: Research Intern
         location: Japan
         start_date: 2026-07
-        end_date: TBD
+        end_date:
         highlights:
-          - "Research Topic: Learning-based dynamic collaborative manipulation."
+          - "Research Topic: Dynamic human-robot collaborative object transport via model-based control for non-prehensile manipulation and learning-based human intention estimation."
 
       - company: Tomorro Robotics
         position: Research Intern
         location: Korea
         start_date: 2025-09
-        end_date:
+        end_date: 2026-06
         summary: CES 2026 Demo System (Autonomous Factory-Line Collaboration)
         highlights:
           - Lead engineer for the autonomous mobile manipulator in a dual-robot workflow. Implemented the complete pipeline for the mobile base to detect, grasp, and transport boxes to a conveyor, ensuring precise synchronization with a secondary VLA-based packing robot.
+          - "UMI-Inspired Interface and General-Purpose Inverse Kinematics Solver: Contributed to the development of a UMI-inspired manipulation interface and a general-purpose inverse kinematics solver to support learning and control across heterogeneous humanoid robot platforms."
+          - "Humanoid Navigation System: Contributed to a 3D-LiDAR-based humanoid navigation system for domestic environments."
 
     Publications:
       - title: Dynamic Scoop-and-Flick Manipulation for Rapid Non-Prehensile High-Arc Object Transfer
@@ -130,6 +139,17 @@ cv:
           - S. Lee
           - S. Yi
 
+      - title: Robust Manipulation of Randomly Stacked Jenga Blocks via a Strategy-Driven Framework Using a Single RGB-D Sensor
+        journal: Sensors, 26(12), 3767
+        date: 2026
+        authors:
+          - D. Song
+          - Y. Park
+          - M. Jo
+          - W. Hwang
+          - G. Ahn
+          - S.-J. Yi
+
       - title: Development of Dual-Arm Human Companion Robots That Can Dance
         journal: Sensors, 24(20), 6704
         date: 2024
@@ -155,23 +175,28 @@ cv:
           - Led development of a lightweight compliant manipulator to reduce environment-damage risk while controlling cost.
           - Extended the platform into the M.S. thesis direction.
 
+      - name: Intelligent Mobile Manipulation Robot for Shipyard Environments
+        summary: Samsung Heavy Industries industry-academia project.
+        highlights:
+          - Contributed to the development of a mobile manipulation system for welding on curved ship components, focusing on simulation environment setup, base navigation, and base-arm coordination for continuous weld-path tracking.
+          - Supported validation using depth-camera-based trajectory error measurement and progressively more realistic terrain and contact conditions.
+
     Outreach & Service:
       - company: Geumjeong Lifelong Learning Center
         position: Volunteer
         location: Busan, Korea
         start_date: 2022-04
-        end_date:
-        summary: Senior citizen education and ongoing digital operations support.
+        end_date: 2026-07
+        summary: Long-term support across senior education, facility maintenance, and digital operations.
         highlights:
-          - Supported senior citizen education programs as a long-term volunteer.
-          - Currently contributing to the ongoing development of a digital operations platform and website to support program management and day-to-day operations.
+          - Worked closely with senior learners and supported the center wherever needed, from teaching and facility maintenance to building an online platform for program management and daily operations.
 
     Skillset:
       - label: Technical Areas
-        details: Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning
+        details: Manipulation, Robot Learning, Model-Based Control, Kinematics & Dynamics, Sensor Fusion, Control, Motion Planning, Optimization, Object Recognition, Deep Learning
 
       - label: Languages
-        details: C++, Python, Matlab
+        details: C++, Python, Lua, Matlab
 
       - label: Frameworks
         details: ROS / ROS2, MuJoCo, Webots, Isaac Gym, Drake
