@@ -23,9 +23,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m **Gijae Ahn**, a robotics engineer aiming to solve problems people face in their daily lives by building robots that can help with physical tasks. I have been pursuing this vision by exploring robotic manipulation from multiple perspectives.
+Hi! I’m **Gijae Ahn**, an engineer working to help people through robotics. I have been pursuing this vision by exploring robotic manipulation from multiple perspectives.
 
-Through projects at my former lab, most notably RoboCup@Home under the supervision of **Prof. Seung-Joon Yi**, I designed, planned, and controlled robotic arms tailored for everyday assistance in home environments. Separately, in collaboration with **Prof. Jungwon Seo**, I investigated dynamic manipulation techniques that enable robots to transport low-profile objects in a non-prehensile manner, broadening my understanding of contact mechanics.
+At **Pusan National University**, under the supervision of **Prof. Seung-Joon Yi**, I designed, planned, and controlled robotic arms tailored for everyday assistance in home environments. Separately, in collaboration with **Prof. Jungwon Seo**, I investigated dynamic manipulation techniques that enable robots to transport low-profile objects in a non-prehensile manner.
 
 Since July 2026, I have been a research intern at **OMRON SINIC X**, where my research focuses on dynamic collaborative object transfer using a hierarchical framework that combines diffusion models with model-based control.
 
