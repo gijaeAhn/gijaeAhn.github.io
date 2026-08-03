@@ -211,7 +211,7 @@ Since July 2026, I have been a research intern at **OMRON SINIC X**, where my re
   </div>
 </div>
 
-## **Outreach & Service**
+## **Community Service**
 
 <div class="about-entry">
   <div class="about-entry-media">
