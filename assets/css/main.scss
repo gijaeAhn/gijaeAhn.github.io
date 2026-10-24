@@ -37,3 +37,6 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+// Minimal theme tokens and the 3D tree + voxel flower in the profile slot (keep last: it overrides the theme tokens above)
+@use "profile_scene";

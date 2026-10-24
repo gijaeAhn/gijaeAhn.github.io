@@ -17,7 +17,11 @@ layout: default
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
+        {% if page.profile.scene %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% capture profile_alt %}Photo of {{ site.first_name }} {{ site.last_name }}{% endcapture %}
+          {% include profile_scene.liquid image=profile_image_path alt=profile_alt %}
+        {% elsif page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}

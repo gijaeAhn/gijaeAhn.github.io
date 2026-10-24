@@ -1,0 +1,23 @@
+{% if page.profile.scene %}
+  <!-- Profile scene (assets/js/tree/): import map for three.js and the scene modules, before any module script. -->
+  {% assign three = site.third_party_libraries.three %}
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "{{ three.url.js.module }}",
+        "three/addons/objects/MarchingCubes.js": "{{ three.url.js.marching_cubes }}",
+        "tree/scene": "{{ '/assets/js/tree/scene.js' | relative_url | bust_file_cache }}",
+        "tree/ghibli-tree": "{{ '/assets/js/tree/ghibli-tree.js' | relative_url | bust_file_cache }}",
+        "tree/island": "{{ '/assets/js/tree/island.js' | relative_url | bust_file_cache }}",
+        "tree/voxel-flower": "{{ '/assets/js/tree/voxel-flower.js' | relative_url | bust_file_cache }}"
+      }
+      {%- unless site.third_party_libraries.download -%}
+        , "integrity": {
+          "{{ three.url.js.module }}": "{{ three.integrity.js.module }}",
+          "{{ three.url.js.core }}": "{{ three.integrity.js.core }}",
+          "{{ three.url.js.marching_cubes }}": "{{ three.integrity.js.marching_cubes }}"
+        }
+      {%- endunless %}
+    }
+  </script>
+{% endif %}

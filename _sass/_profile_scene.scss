@@ -1,0 +1,171 @@
+/*******************************************************************************
+ * Minimal theme tokens, and the profile scene (assets/js/tree/): a soft tree and a
+ * voxel flower on a floating island, in place of the profile photo.
+ ******************************************************************************/
+
+:root {
+  --global-text-color: #1e2420;
+  --global-text-color-light: #5a635d;
+  --global-theme-color: #526e98; // soft slate navy: 5.2:1 on white, 3:1 against the body text
+  --global-hover-color: #526e98;
+  --global-divider-color: rgba(30, 36, 32, 0.1);
+  --global-footer-bg-color: var(--global-bg-color);
+  --global-footer-text-color: var(--global-text-color-light);
+  --global-footer-link-color: var(--global-theme-color);
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #11161d; // must stay a 6-digit hex: theme.js appends an alpha suffix
+  --global-text-color: #e2e5e7;
+  --global-text-color-light: #9aa3a9;
+  --global-theme-color: #a9bce4; // the navy, lifted so it reads on the dark page
+  --global-hover-color: #a9bce4;
+  --global-divider-color: rgba(255, 255, 255, 0.08);
+  --global-card-bg-color: #161c24;
+  --global-hover-text-color: #11161d; // dark ink on the pale blue hover background
+  --global-footer-bg-color: var(--global-bg-color);
+  --global-footer-text-color: var(--global-text-color-light);
+  --global-footer-link-color: var(--global-theme-color);
+}
+
+// a quiet footer: page colour with a hairline instead of a dark bar
+footer.fixed-bottom {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+// al-folio puts white text on the theme colour in a few places; use page-colour ink so it stays readable
+// (light: white on #526e98, dark: #11161d on #a9bce4)
+.pagination .page-item.active .page-link {
+  color: var(--global-bg-color);
+}
+
+// only badges on the theme colour; badges with an inline venue colour keep their white text
+.publications ol.bibliography li .abbr abbr:not([style]) a {
+  color: var(--global-bg-color);
+}
+
+::highlight(search) {
+  color: var(--global-bg-color);
+}
+
+// barely-there shadows instead of MDB's defaults
+.z-depth-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+}
+
+// ---------------------------------------------------------------------------
+// Profile scene
+// ---------------------------------------------------------------------------
+.profile-scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  margin: 0 0 1rem;
+
+  img,
+  canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  // the photo only exists as the fallback (no JavaScript / no WebGL2 / loading failed)
+  img {
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  canvas {
+    opacity: 0;
+    transition: opacity 0.9s cubic-bezier(0.215, 0.61, 0.355, 1); // easeOutCubic
+    touch-action: pan-y pinch-zoom; // horizontal drags turn the tree; scrolling and pinch-zoom stay with the page
+    cursor: grab;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+
+  &.is-ready canvas {
+    opacity: 1;
+  }
+
+  // still loading: the invisible canvas should not catch the pointer
+  &:not(.is-ready) canvas {
+    pointer-events: none;
+    cursor: auto;
+  }
+}
+
+// on phones the profile block spans the full width: keep the scene a modest square
+@media (max-width: 575.98px) {
+  .profile-scene {
+    aspect-ratio: 1;
+    max-width: 320px;
+    margin: 0 auto 1rem;
+  }
+}
+
+// pause / play (WCAG 2.2.2), shown on hover or keyboard focus
+.profile-scene-toggle {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  width: 2rem;
+  height: 2rem;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  color: var(--global-text-color-light);
+  font-size: 0.75rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+
+  .profile-scene-play {
+    display: none;
+  }
+}
+
+.profile-scene.is-ready .profile-scene-toggle {
+  display: inline-flex;
+}
+
+.profile-scene:hover .profile-scene-toggle,
+.profile-scene-toggle:focus-visible {
+  opacity: 1;
+}
+
+// without hover (phones, tablets) the control has to be visible to be discoverable
+@media (hover: none) {
+  .profile-scene.is-ready .profile-scene-toggle {
+    opacity: 0.85;
+  }
+}
+
+.profile-scene[data-paused="true"] .profile-scene-toggle {
+  opacity: 1;
+
+  .profile-scene-pause {
+    display: none;
+  }
+
+  .profile-scene-play {
+    display: inline-block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-scene-toggle {
+    display: none !important;
+  }
+
+  .profile-scene canvas {
+    transition: none;
+  }
+}

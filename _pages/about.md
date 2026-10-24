@@ -7,7 +7,8 @@ subtitle:
 profile:
   align: right
   image: me.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
+  scene: false # true shows the 3D tree and voxel rose instead of the photo (the photo stays as the fallback)
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,11 +24,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m **Gijae Ahn**, an engineer working to help people through robotics. I have been pursuing this vision by exploring robotic manipulation from multiple perspectives.
+Hi! I’m **Gijae Ahn**, an engineer who envisions assisting people with robots. I have been pursuing this by focusing on how robots leverage contact.
 
-At **Pusan National University**, under the supervision of **Prof. Seung-Joon Yi**, I designed, planned, and controlled robotic arms tailored for everyday assistance in home environments. Separately, in collaboration with **Prof. Jungwon Seo**, I investigated dynamic manipulation techniques that enable robots to transport low-profile objects in a non-prehensile manner.
+At **Pusan National University**, under the supervision of **[Prof. Seung-Joon Yi](https://sites.google.com/view/arai-lab/members)**, I designed, planned, and controlled robotic arms tailored for domestic tasks in home environments. Separately, I worked on teaching robots to easily toss flat, hard-to-grab objects.
 
-Since July 2026, I have been a research intern at **OMRON SINIC X**, where my research focuses on dynamic collaborative object transfer using a hierarchical framework that combines diffusion models with model-based control.
+Since July 2026, I have been a research intern at **OMRON SINIC X**, and I’m working on non-prehensile collaborative object transport for people with restricted arm mobility.
 
 ## **Competitions**
 

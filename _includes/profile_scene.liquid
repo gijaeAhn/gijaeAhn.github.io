@@ -1,0 +1,52 @@
+<!--
+  A painterly, Ghibli-style tree and a small voxel rose on a floating island that turns from smooth to voxels
+  (assets/js/tree/),
+  in place of the profile photo.
+  The photo is only the fallback (no JavaScript, no WebGL2, or the scene fails to load), so it is not
+  downloaded unless it is shown.
+-->
+{% assign scene_img_base = include.image | remove: '.jpg' | remove: '.jpeg' | remove: '.png' %}
+<figure
+  class="profile-scene"
+  id="profile-scene"
+  data-photo="{{ include.image | relative_url }}"
+  data-photo-webp="{% for w in site.imagemagick.widths %}{{ scene_img_base | relative_url }}-{{ w }}.webp {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+  data-photo-alt="{{ include.alt }}"
+>
+  <canvas
+    role="img"
+    aria-label="A fluffy, hand-painted-looking tree and a small voxel rose on a floating island whose ground turns gradually from smooth to blocky"
+    aria-hidden="true"
+  ></canvas>
+  <button class="profile-scene-toggle" type="button" title="Pause animation" aria-label="Pause animation" aria-pressed="false">
+    <i class="fa-solid fa-pause profile-scene-pause" aria-hidden="true"></i>
+    <i class="fa-solid fa-play profile-scene-play" aria-hidden="true"></i>
+  </button>
+  <noscript><img src="{{ include.image | relative_url }}" alt="{{ include.alt }}"></noscript>
+</figure>
+<script type="module">
+  const scene = document.getElementById('profile-scene');
+  const showPhoto = () => {
+    if (scene.classList.contains('is-fallback')) return;
+    const img = document.createElement('img');
+    if ({{ site.imagemagick.enabled | default: false }}) {
+      img.srcset = scene.dataset.photoWebp;
+      img.sizes = '(min-width: 576px) 360px, 320px';
+    }
+    img.src = scene.dataset.photo;
+    img.alt = scene.dataset.photoAlt;
+    scene.querySelector('canvas')?.remove(); // nothing invisible on top of the photo
+    scene.prepend(img);
+    scene.classList.remove('is-ready');
+    scene.classList.add('is-fallback');
+  };
+  // the scene can also give up later (a lost WebGL context that never comes back)
+  scene.addEventListener('profile-scene-failed', showPhoto, { once: true });
+  // Start right away instead of waiting for window load: the page's large GIFs would hold it back.
+  const start = () =>
+    import('tree/scene')
+      .then((m) => m.init(scene))
+      .catch(showPhoto);
+  if (window.requestIdleCallback) requestIdleCallback(start, { timeout: 300 });
+  else setTimeout(start, 0);
+</script>
